@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('point_8hpp_source.html',''); initResiz
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;SDL.h&gt;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;cmath&gt;</span>        <span class="comment">// sqrt, abs, round</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;cmath&gt;</span>        <span class="comment">// sqrt, pow, round</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;ostream&gt;</span>      <span class="comment">// ostream</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span>       <span class="comment">// string, to_string</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;type_traits&gt;</span>  <span class="comment">// conditional_t, is_integral_v, is_floating_point_v, ...</span></div>
@@ -244,13 +244,13 @@ $(document).ready(function(){initNavTree('point_8hpp_source.html',''); initResiz
 <div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;    <span class="keyword">typename</span> <a class="code" href="classcen_1_1point__traits.html#a20b5aacf147e2f7ce748358c76f10c12">point_traits&lt;T&gt;::value_type</a></div>
 <div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;{</div>
 <div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;  <span class="keywordflow">if</span> constexpr (<a class="code" href="classcen_1_1basic__point.html">basic_point&lt;T&gt;::isIntegral</a>) {</div>
-<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;    <span class="keyword">const</span> <span class="keyword">auto</span> xDiff = std::abs(from.x() - to.x());</div>
-<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;    <span class="keyword">const</span> <span class="keyword">auto</span> yDiff = std::abs(from.y() - to.y());</div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;    <span class="keyword">const</span> <span class="keyword">auto</span> xDiff = std::pow(from.x() - to.x(), T{2});</div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;    <span class="keyword">const</span> <span class="keyword">auto</span> yDiff = std::pow(from.y() - to.y(), T{2});</div>
 <div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;    <span class="keyword">const</span> <span class="keyword">auto</span> dist = std::sqrt(xDiff + yDiff);</div>
 <div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(std::round(dist));</div>
 <div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;  }</div>
 <div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;  <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;    <span class="keywordflow">return</span> std::sqrt(std::abs(from.x() - to.x()) + std::abs(from.y() - to.y()));</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;    <span class="keywordflow">return</span> std::sqrt(std::pow(from.x() - to.x(), T{2}) + std::pow(from.y() - to.y(), T{2}));</div>
 <div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;  }</div>
 <div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;}</div>
 <div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160; </div>
