@@ -541,6 +541,7 @@ class file final
     return IMG_isGIF(m_context.get()) == 1;
   }
 
+#if (SDL_IMAGE_MAJOR_VERSION == 2) && (SDL_IMAGE_MINOR_VERSION >= 2)
   /**
    * \brief Indicates whether or not the file represents an SVG image.
    *
@@ -552,6 +553,7 @@ class file final
   {
     return IMG_isSVG(m_context.get()) == 1;
   }
+#endif
 
   /**
    * \brief Indicates whether or not the file represents a WEBP image.
