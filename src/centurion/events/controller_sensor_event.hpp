@@ -1,7 +1,7 @@
 #ifndef CENTURION_CONTROLLER_SENSOR_EVENT_HEADER
 #define CENTURION_CONTROLLER_SENSOR_EVENT_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include <array>  // array
 

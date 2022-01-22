@@ -36,7 +36,7 @@
 #ifndef CENTURION_NO_SDL_MIXER
 
 #include <SDL.h>
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 
 #include <optional>  // optional
 
@@ -739,7 +739,7 @@ inline auto reset_group(const channel_index channel) noexcept -> result
 
 #ifndef CENTURION_NO_SDL_MIXER
 
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 
 #include <ostream>      // ostream
 #include <string_view>  // string_view
@@ -751,15 +751,15 @@ inline auto reset_group(const channel_index channel) noexcept -> result
 #include <SDL.h>
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #ifndef CENTURION_NO_SDL_MIXER
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 #endif  // CENTURION_NO_SDL_MIXER
 
 #ifndef CENTURION_NO_SDL_TTF
-#include <SDL_ttf.h>
+#include <SDL2/SDL_ttf.h>
 #endif  // CENTURION_NO_SDL_TTF
 
 #include <exception>  // exception
@@ -1129,7 +1129,7 @@ inline auto operator<<(std::ostream& stream, const fade_status status) -> std::o
 
 #ifndef CENTURION_NO_SDL_MIXER
 
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 
 #include <cassert>   // assert
 #include <memory>    // unique_ptr
@@ -1621,7 +1621,7 @@ template <typename T>
 
 #ifndef CENTURION_NO_SDL_MIXER
 
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 
 #include <ostream>      // ostream
 #include <string_view>  // string_view
@@ -1785,7 +1785,7 @@ inline auto operator<<(std::ostream& stream, const fade_status status) -> std::o
 
 #ifndef CENTURION_NO_SDL_MIXER
 
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 
 #include <ostream>      // ostream
 #include <string_view>  // string_view
@@ -2553,7 +2553,7 @@ inline auto operator<<(std::ostream& stream, const music& music) -> std::ostream
 
 #ifndef CENTURION_NO_SDL_MIXER
 
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 
 #include <ostream>      // ostream
 #include <string_view>  // string_view
@@ -2741,7 +2741,7 @@ inline auto operator<<(std::ostream& stream, const music_type type) -> std::ostr
 
 #ifndef CENTURION_NO_SDL_MIXER
 
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 
 #include <cassert>   // assert
 #include <memory>    // unique_ptr
@@ -2830,15 +2830,15 @@ using maybe_owner = T;
 #include <SDL.h>
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #ifndef CENTURION_NO_SDL_MIXER
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 #endif  // CENTURION_NO_SDL_MIXER
 
 #ifndef CENTURION_NO_SDL_TTF
-#include <SDL_ttf.h>
+#include <SDL2/SDL_ttf.h>
 #endif  // CENTURION_NO_SDL_TTF
 
 #include <exception>  // exception
@@ -3674,7 +3674,7 @@ inline auto operator<<(std::ostream& stream, const sound_effect& sound) -> std::
 #ifndef CENTURION_NO_SDL_MIXER
 
 #include <SDL.h>
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 
 // #include "../core/result.hpp"
 
@@ -3995,15 +3995,15 @@ template <typename To, typename From>
 #include <SDL.h>
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #ifndef CENTURION_NO_SDL_MIXER
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 #endif  // CENTURION_NO_SDL_MIXER
 
 #ifndef CENTURION_NO_SDL_TTF
-#include <SDL_ttf.h>
+#include <SDL2/SDL_ttf.h>
 #endif  // CENTURION_NO_SDL_TTF
 
 #include <exception>  // exception
@@ -4565,15 +4565,15 @@ concept is_stateless_callable = std::default_initializable<T> && std::invocable<
 
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #ifndef CENTURION_NO_SDL_MIXER
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 #endif  // CENTURION_NO_SDL_MIXER
 
 #ifndef CENTURION_NO_SDL_TTF
-#include <SDL_ttf.h>
+#include <SDL2/SDL_ttf.h>
 #endif  // CENTURION_NO_SDL_TTF
 
 #include <cassert>   // assert
@@ -4586,15 +4586,15 @@ concept is_stateless_callable = std::default_initializable<T> && std::invocable<
 #include <SDL.h>
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #ifndef CENTURION_NO_SDL_MIXER
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 #endif  // CENTURION_NO_SDL_MIXER
 
 #ifndef CENTURION_NO_SDL_TTF
-#include <SDL_ttf.h>
+#include <SDL2/SDL_ttf.h>
 #endif  // CENTURION_NO_SDL_TTF
 
 #include <exception>  // exception
@@ -5323,15 +5323,15 @@ concept is_stateless_callable = std::default_initializable<T> && std::invocable<
 #include <SDL.h>
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #ifndef CENTURION_NO_SDL_MIXER
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 #endif  // CENTURION_NO_SDL_MIXER
 
 #ifndef CENTURION_NO_SDL_TTF
-#include <SDL_ttf.h>
+#include <SDL2/SDL_ttf.h>
 #endif  // CENTURION_NO_SDL_TTF
 
 #include <cassert>  // assert
@@ -8120,15 +8120,15 @@ template <typename Enum, std::enable_if_t<std::is_enum_v<Enum>, int> = 0>
 #include <SDL.h>
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #ifndef CENTURION_NO_SDL_MIXER
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 #endif  // CENTURION_NO_SDL_MIXER
 
 #ifndef CENTURION_NO_SDL_TTF
-#include <SDL_ttf.h>
+#include <SDL2/SDL_ttf.h>
 #endif  // CENTURION_NO_SDL_TTF
 
 #include <cassert>  // assert
@@ -9340,15 +9340,15 @@ template <typename T>
 #include <SDL.h>
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #ifndef CENTURION_NO_SDL_MIXER
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 #endif  // CENTURION_NO_SDL_MIXER
 
 #ifndef CENTURION_NO_SDL_TTF
-#include <SDL_ttf.h>
+#include <SDL2/SDL_ttf.h>
 #endif  // CENTURION_NO_SDL_TTF
 
 #include <exception>  // exception
@@ -9981,15 +9981,15 @@ struct sdl_deleter final
 #include <SDL.h>
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #ifndef CENTURION_NO_SDL_MIXER
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 #endif  // CENTURION_NO_SDL_MIXER
 
 #ifndef CENTURION_NO_SDL_TTF
-#include <SDL_ttf.h>
+#include <SDL2/SDL_ttf.h>
 #endif  // CENTURION_NO_SDL_TTF
 
 #include <cassert>  // assert
@@ -10703,15 +10703,15 @@ template <typename Enum, std::enable_if_t<std::is_enum_v<Enum>, int> = 0>
 #include <SDL.h>
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #ifndef CENTURION_NO_SDL_MIXER
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 #endif  // CENTURION_NO_SDL_MIXER
 
 #ifndef CENTURION_NO_SDL_TTF
-#include <SDL_ttf.h>
+#include <SDL2/SDL_ttf.h>
 #endif  // CENTURION_NO_SDL_TTF
 
 #include <exception>  // exception
@@ -11810,15 +11810,15 @@ template <typename T>
 #include <SDL.h>
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #ifndef CENTURION_NO_SDL_MIXER
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 #endif  // CENTURION_NO_SDL_MIXER
 
 #ifndef CENTURION_NO_SDL_TTF
-#include <SDL_ttf.h>
+#include <SDL2/SDL_ttf.h>
 #endif  // CENTURION_NO_SDL_TTF
 
 #include <exception>  // exception
@@ -13244,15 +13244,15 @@ namespace cen::detail {
 #include <SDL.h>
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #ifndef CENTURION_NO_SDL_MIXER
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 #endif  // CENTURION_NO_SDL_MIXER
 
 #ifndef CENTURION_NO_SDL_TTF
-#include <SDL_ttf.h>
+#include <SDL2/SDL_ttf.h>
 #endif  // CENTURION_NO_SDL_TTF
 
 #include <exception>  // exception
@@ -13573,15 +13573,15 @@ class pointer_manager final
 #include <SDL.h>
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #ifndef CENTURION_NO_SDL_MIXER
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 #endif  // CENTURION_NO_SDL_MIXER
 
 #ifndef CENTURION_NO_SDL_TTF
-#include <SDL_ttf.h>
+#include <SDL2/SDL_ttf.h>
 #endif  // CENTURION_NO_SDL_TTF
 
 #include <cassert>  // assert
@@ -14122,15 +14122,15 @@ namespace cen {
 #include <SDL.h>
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #ifndef CENTURION_NO_SDL_MIXER
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 #endif  // CENTURION_NO_SDL_MIXER
 
 #ifndef CENTURION_NO_SDL_TTF
-#include <SDL_ttf.h>
+#include <SDL2/SDL_ttf.h>
 #endif  // CENTURION_NO_SDL_TTF
 
 #include <exception>  // exception
@@ -25379,15 +25379,15 @@ inline auto as_sdl_event(const common_event<SDL_JoyHatEvent>& event) -> SDL_Even
 #include <SDL.h>
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #ifndef CENTURION_NO_SDL_MIXER
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 #endif  // CENTURION_NO_SDL_MIXER
 
 #ifndef CENTURION_NO_SDL_TTF
-#include <SDL_ttf.h>
+#include <SDL2/SDL_ttf.h>
 #endif  // CENTURION_NO_SDL_TTF
 
 #include <cassert>  // assert
@@ -35264,7 +35264,7 @@ namespace cen {
 #include <SDL.h>
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #include <cassert>   // assert
@@ -35754,15 +35754,15 @@ template <typename Enum, std::enable_if_t<std::is_enum_v<Enum>, int> = 0>
 #include <SDL.h>
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #ifndef CENTURION_NO_SDL_MIXER
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 #endif  // CENTURION_NO_SDL_MIXER
 
 #ifndef CENTURION_NO_SDL_TTF
-#include <SDL_ttf.h>
+#include <SDL2/SDL_ttf.h>
 #endif  // CENTURION_NO_SDL_TTF
 
 #include <exception>  // exception
@@ -38046,15 +38046,15 @@ template <typename T>
 #include <SDL.h>
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #ifndef CENTURION_NO_SDL_MIXER
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 #endif  // CENTURION_NO_SDL_MIXER
 
 #ifndef CENTURION_NO_SDL_TTF
-#include <SDL_ttf.h>
+#include <SDL2/SDL_ttf.h>
 #endif  // CENTURION_NO_SDL_TTF
 
 #include <exception>  // exception
@@ -39638,15 +39638,15 @@ class enum_hint
 #include <SDL.h>
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #ifndef CENTURION_NO_SDL_MIXER
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 #endif  // CENTURION_NO_SDL_MIXER
 
 #ifndef CENTURION_NO_SDL_TTF
-#include <SDL_ttf.h>
+#include <SDL2/SDL_ttf.h>
 #endif  // CENTURION_NO_SDL_TTF
 
 #include <exception>  // exception
@@ -40195,15 +40195,15 @@ concept is_stateless_callable = std::default_initializable<T> && std::invocable<
 #include <SDL.h>
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #ifndef CENTURION_NO_SDL_MIXER
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 #endif  // CENTURION_NO_SDL_MIXER
 
 #ifndef CENTURION_NO_SDL_TTF
-#include <SDL_ttf.h>
+#include <SDL2/SDL_ttf.h>
 #endif  // CENTURION_NO_SDL_TTF
 
 #include <exception>  // exception
@@ -40392,15 +40392,15 @@ class mix_error final : public cen_error
 #include <SDL.h>
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #ifndef CENTURION_NO_SDL_MIXER
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 #endif  // CENTURION_NO_SDL_MIXER
 
 #ifndef CENTURION_NO_SDL_TTF
-#include <SDL_ttf.h>
+#include <SDL2/SDL_ttf.h>
 #endif  // CENTURION_NO_SDL_TTF
 
 #include <cassert>  // assert
@@ -42735,15 +42735,15 @@ struct use_old_joystick_mapping final : detail::bool_hint<use_old_joystick_mappi
 #include <SDL.h>
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #ifndef CENTURION_NO_SDL_MIXER
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 #endif  // CENTURION_NO_SDL_MIXER
 
 #ifndef CENTURION_NO_SDL_TTF
-#include <SDL_ttf.h>
+#include <SDL2/SDL_ttf.h>
 #endif  // CENTURION_NO_SDL_TTF
 
 #include <exception>  // exception
@@ -44351,15 +44351,15 @@ namespace cen::detail {
 #include <SDL.h>
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #ifndef CENTURION_NO_SDL_MIXER
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 #endif  // CENTURION_NO_SDL_MIXER
 
 #ifndef CENTURION_NO_SDL_TTF
-#include <SDL_ttf.h>
+#include <SDL2/SDL_ttf.h>
 #endif  // CENTURION_NO_SDL_TTF
 
 #include <exception>  // exception
@@ -44680,15 +44680,15 @@ class pointer_manager final
 #include <SDL.h>
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #ifndef CENTURION_NO_SDL_MIXER
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 #endif  // CENTURION_NO_SDL_MIXER
 
 #ifndef CENTURION_NO_SDL_TTF
-#include <SDL_ttf.h>
+#include <SDL2/SDL_ttf.h>
 #endif  // CENTURION_NO_SDL_TTF
 
 #include <cassert>  // assert
@@ -45229,15 +45229,15 @@ namespace cen {
 #include <SDL.h>
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #ifndef CENTURION_NO_SDL_MIXER
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 #endif  // CENTURION_NO_SDL_MIXER
 
 #ifndef CENTURION_NO_SDL_TTF
-#include <SDL_ttf.h>
+#include <SDL2/SDL_ttf.h>
 #endif  // CENTURION_NO_SDL_TTF
 
 #include <exception>  // exception
@@ -57762,15 +57762,15 @@ inline auto operator<<(std::ostream& stream, const joystick_type type) -> std::o
 #include <SDL.h>
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #ifndef CENTURION_NO_SDL_MIXER
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 #endif  // CENTURION_NO_SDL_MIXER
 
 #ifndef CENTURION_NO_SDL_TTF
-#include <SDL_ttf.h>
+#include <SDL2/SDL_ttf.h>
 #endif  // CENTURION_NO_SDL_TTF
 
 #include <cassert>  // assert
@@ -67306,15 +67306,15 @@ template <typename T, typename... Args>
 #include <SDL.h>
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #ifndef CENTURION_NO_SDL_MIXER
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 #endif  // CENTURION_NO_SDL_MIXER
 
 #ifndef CENTURION_NO_SDL_TTF
-#include <SDL_ttf.h>
+#include <SDL2/SDL_ttf.h>
 #endif  // CENTURION_NO_SDL_TTF
 
 #include <exception>  // exception
@@ -70110,15 +70110,15 @@ class shared_object final
 #include <SDL.h>
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #ifndef CENTURION_NO_SDL_MIXER
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 #endif  // CENTURION_NO_SDL_MIXER
 
 #ifndef CENTURION_NO_SDL_TTF
-#include <SDL_ttf.h>
+#include <SDL2/SDL_ttf.h>
 #endif  // CENTURION_NO_SDL_TTF
 
 #include <exception>  // exception
@@ -73133,15 +73133,15 @@ class try_lock final
 #include <SDL.h>
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #ifndef CENTURION_NO_SDL_MIXER
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 #endif  // CENTURION_NO_SDL_MIXER
 
 #ifndef CENTURION_NO_SDL_TTF
-#include <SDL_ttf.h>
+#include <SDL2/SDL_ttf.h>
 #endif  // CENTURION_NO_SDL_TTF
 
 #include <exception>  // exception
@@ -77807,15 +77807,15 @@ inline constexpr color yellow_green{0x9A, 0xCD, 0x32};
 #include <SDL.h>
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #ifndef CENTURION_NO_SDL_MIXER
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 #endif  // CENTURION_NO_SDL_MIXER
 
 #ifndef CENTURION_NO_SDL_TTF
-#include <SDL_ttf.h>
+#include <SDL2/SDL_ttf.h>
 #endif  // CENTURION_NO_SDL_TTF
 
 #include <exception>  // exception
@@ -78811,7 +78811,7 @@ template <typename T>
 
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #include <cassert>  // assert
@@ -83665,7 +83665,7 @@ inline auto operator<<(std::ostream& stream, const flash_op op) -> std::ostream&
 
 #ifndef CENTURION_NO_SDL_TTF
 
-#include <SDL_ttf.h>
+#include <SDL2/SDL_ttf.h>
 
 #include <cassert>      // assert
 #include <memory>       // unique_ptr
@@ -84942,7 +84942,7 @@ inline auto operator<<(std::ostream& stream, const font& font) -> std::ostream&
 
 #ifndef CENTURION_NO_SDL_TTF
 
-#include <SDL_ttf.h>
+#include <SDL2/SDL_ttf.h>
 
 #include <cassert>        // assert
 #include <string>         // string
@@ -84959,7 +84959,7 @@ inline auto operator<<(std::ostream& stream, const font& font) -> std::ostream&
 
 #ifndef CENTURION_NO_SDL_TTF
 
-#include <SDL_ttf.h>
+#include <SDL2/SDL_ttf.h>
 
 #include <cassert>      // assert
 #include <memory>       // unique_ptr
@@ -85830,7 +85830,7 @@ inline auto operator<<(std::ostream& stream, const font& font) -> std::ostream&
 
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #include <cassert>  // assert
@@ -91605,15 +91605,15 @@ inline auto operator<<(std::ostream& stream, const message_box_type type) -> std
 #include <SDL.h>
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #ifndef CENTURION_NO_SDL_MIXER
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 #endif  // CENTURION_NO_SDL_MIXER
 
 #ifndef CENTURION_NO_SDL_TTF
-#include <SDL_ttf.h>
+#include <SDL2/SDL_ttf.h>
 #endif  // CENTURION_NO_SDL_TTF
 
 #include <exception>  // exception
@@ -92286,15 +92286,15 @@ inline auto operator<<(std::ostream& stream, const result result) -> std::ostrea
 #include <SDL.h>
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #ifndef CENTURION_NO_SDL_MIXER
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 #endif  // CENTURION_NO_SDL_MIXER
 
 #ifndef CENTURION_NO_SDL_TTF
-#include <SDL_ttf.h>
+#include <SDL2/SDL_ttf.h>
 #endif  // CENTURION_NO_SDL_TTF
 
 #include <exception>  // exception
@@ -92702,15 +92702,15 @@ class pointer_manager final
 #include <SDL.h>
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #ifndef CENTURION_NO_SDL_MIXER
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 #endif  // CENTURION_NO_SDL_MIXER
 
 #ifndef CENTURION_NO_SDL_TTF
-#include <SDL_ttf.h>
+#include <SDL2/SDL_ttf.h>
 #endif  // CENTURION_NO_SDL_TTF
 
 #include <exception>  // exception
@@ -93727,15 +93727,15 @@ template <typename T>
 #include <SDL.h>
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #ifndef CENTURION_NO_SDL_MIXER
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 #endif  // CENTURION_NO_SDL_MIXER
 
 #ifndef CENTURION_NO_SDL_TTF
-#include <SDL_ttf.h>
+#include <SDL2/SDL_ttf.h>
 #endif  // CENTURION_NO_SDL_TTF
 
 #include <exception>  // exception
@@ -96687,7 +96687,7 @@ inline auto operator<<(std::ostream& stream, const pixel_format format) -> std::
 
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #include <cassert>  // assert
@@ -101873,7 +101873,7 @@ auto operator<<(std::ostream& stream, const basic_area<T>& area) -> std::ostream
 
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #include <cassert>  // assert
@@ -105296,7 +105296,7 @@ auto operator<<(std::ostream& stream, const basic_pixel_format_info<T>& info) ->
 
 #ifndef CENTURION_NO_SDL_TTF
 
-#include <SDL_ttf.h>
+#include <SDL2/SDL_ttf.h>
 
 #include <cassert>        // assert
 #include <string>         // string
@@ -111468,7 +111468,7 @@ namespace cen::screen {
 
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #include <cassert>  // assert
@@ -112610,7 +112610,7 @@ inline auto operator<<(std::ostream& stream, const system_cursor cursor) -> std:
 
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #include <cassert>  // assert
@@ -113891,7 +113891,7 @@ constexpr auto operator""_uni(const ulonglong i) noexcept -> unicode
 #ifndef CENTURION_NO_VULKAN
 
 #include <SDL.h>
-#include <SDL_vulkan.h>
+#include <SDL2/SDL_vulkan.h>
 
 #include <cassert>   // assert
 #include <memory>    // unique_ptr
@@ -114404,15 +114404,15 @@ using zstring [[deprecated]] = char*;
 #include <SDL.h>
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #ifndef CENTURION_NO_SDL_MIXER
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 #endif  // CENTURION_NO_SDL_MIXER
 
 #ifndef CENTURION_NO_SDL_TTF
-#include <SDL_ttf.h>
+#include <SDL2/SDL_ttf.h>
 #endif  // CENTURION_NO_SDL_TTF
 
 #include <exception>  // exception
@@ -115429,15 +115429,15 @@ template <typename T>
 #include <SDL.h>
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #ifndef CENTURION_NO_SDL_MIXER
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 #endif  // CENTURION_NO_SDL_MIXER
 
 #ifndef CENTURION_NO_SDL_TTF
-#include <SDL_ttf.h>
+#include <SDL2/SDL_ttf.h>
 #endif  // CENTURION_NO_SDL_TTF
 
 #include <exception>  // exception
@@ -118389,7 +118389,7 @@ inline auto operator<<(std::ostream& stream, const pixel_format format) -> std::
 
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #include <cassert>  // assert
@@ -123026,7 +123026,7 @@ template <typename T>
 #ifndef CENTURION_NO_VULKAN
 
 #include <SDL.h>
-#include <SDL_vulkan.h>
+#include <SDL2/SDL_vulkan.h>
 
 // #include "../../compiler/features.hpp"
 #ifndef CENTURION_FEATURES_HEADER
@@ -123110,15 +123110,15 @@ template <typename T>
 #include <SDL.h>
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #ifndef CENTURION_NO_SDL_MIXER
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 #endif  // CENTURION_NO_SDL_MIXER
 
 #ifndef CENTURION_NO_SDL_TTF
-#include <SDL_ttf.h>
+#include <SDL2/SDL_ttf.h>
 #endif  // CENTURION_NO_SDL_TTF
 
 #include <exception>  // exception

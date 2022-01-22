@@ -1,7 +1,7 @@
 #ifndef CENTURION_SHARED_OBJECT_HEADER
 #define CENTURION_SHARED_OBJECT_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include <cassert>  // assert
 #include <memory>   // unique_ptr

@@ -3,8 +3,8 @@
 
 #ifndef CENTURION_NO_VULKAN
 
-#include <SDL.h>
-#include <SDL_vulkan.h>
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_vulkan.h>
 
 #include <cassert>   // assert
 #include <memory>    // unique_ptr

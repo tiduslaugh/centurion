@@ -1,12 +1,12 @@
 #ifndef CENTURION_SURFACE_HEADER
 #define CENTURION_SURFACE_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include "../compiler/features.hpp"
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #include <cassert>  // assert

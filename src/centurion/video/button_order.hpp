@@ -1,7 +1,7 @@
 #ifndef CENTURION_BUTTON_ORDER_HEADER
 #define CENTURION_BUTTON_ORDER_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include <ostream>      // ostream
 #include <string_view>  // string_view

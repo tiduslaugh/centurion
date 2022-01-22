@@ -1,7 +1,7 @@
 #ifndef CENTURION_TOUCH_FINGER_EVENT_HEADER
 #define CENTURION_TOUCH_FINGER_EVENT_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include "../core/integers.hpp"
 #include "../detail/clamp.hpp"

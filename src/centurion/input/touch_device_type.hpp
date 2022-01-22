@@ -1,7 +1,7 @@
 #ifndef CENTURION_TOUCH_DEVICE_TYPE_HEADER
 #define CENTURION_TOUCH_DEVICE_TYPE_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include <ostream>      // ostream
 #include <string_view>  // string_view

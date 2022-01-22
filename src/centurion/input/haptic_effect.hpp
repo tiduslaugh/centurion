@@ -1,7 +1,7 @@
 #ifndef CENTURION_HAPTIC_EFFECT_HEADER
 #define CENTURION_HAPTIC_EFFECT_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include <type_traits>  // enable_if_t
 

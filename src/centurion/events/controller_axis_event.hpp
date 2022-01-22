@@ -1,7 +1,7 @@
 #ifndef CENTURION_CONTROLLER_AXIS_EVENT_HEADER
 #define CENTURION_CONTROLLER_AXIS_EVENT_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include "../core/integers.hpp"
 #include "../input/controller.hpp"

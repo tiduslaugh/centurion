@@ -3,7 +3,7 @@
 
 #ifndef CENTURION_NO_SDL_MIXER
 
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 
 #include <cassert>   // assert
 #include <memory>    // unique_ptr

@@ -1,7 +1,7 @@
 #ifndef CENTURION_ENUM_HINT_HEADER
 #define CENTURION_ENUM_HINT_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include <optional>     // optional
 #include <string>       // string

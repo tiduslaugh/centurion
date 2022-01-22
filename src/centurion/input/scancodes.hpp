@@ -1,7 +1,7 @@
 #ifndef CENTURION_SCANCODES_HEADER
 #define CENTURION_SCANCODES_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include "scan_code.hpp"
 

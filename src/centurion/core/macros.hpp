@@ -1,7 +1,7 @@
 #ifndef CENTURION_MACROS_HEADER
 #define CENTURION_MACROS_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 /// \addtogroup core
 /// \{

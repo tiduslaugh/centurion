@@ -1,7 +1,7 @@
 #ifndef CENTURION_TOUCH_HEADER
 #define CENTURION_TOUCH_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include <optional>  // optional
 

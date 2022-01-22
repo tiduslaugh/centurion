@@ -1,7 +1,7 @@
 #ifndef CENTURION_KEYBOARD_HEADER
 #define CENTURION_KEYBOARD_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include <algorithm>  // copy
 #include <array>      // array

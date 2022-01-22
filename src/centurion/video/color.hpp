@@ -1,7 +1,7 @@
 #ifndef CENTURION_COLOR_HEADER
 #define CENTURION_COLOR_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include <cassert>      // assert
 #include <cmath>        // round, abs, fmod, lerp

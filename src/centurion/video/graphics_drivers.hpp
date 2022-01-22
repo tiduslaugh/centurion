@@ -1,7 +1,7 @@
 #ifndef CENTURION_GRAPHICS_DRIVERS_HEADER
 #define CENTURION_GRAPHICS_DRIVERS_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include <optional>  // optional
 

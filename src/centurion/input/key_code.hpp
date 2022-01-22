@@ -1,7 +1,7 @@
 #ifndef CENTURION_KEY_CODE_HEADER
 #define CENTURION_KEY_CODE_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include <cassert>  // assert
 #include <ostream>  // ostream

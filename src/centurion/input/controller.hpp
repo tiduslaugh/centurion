@@ -1,7 +1,7 @@
 #ifndef CENTURION_GAME_CONTROLLER_HEADER
 #define CENTURION_GAME_CONTROLLER_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include <array>        // array
 #include <cassert>      // assert

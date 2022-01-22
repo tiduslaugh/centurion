@@ -1,7 +1,7 @@
 #ifndef CENTURION_RASPBERRY_PI_HINTS_HEADER
 #define CENTURION_RASPBERRY_PI_HINTS_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include "../core/str.hpp"
 #include "../detail/hints_impl.hpp"

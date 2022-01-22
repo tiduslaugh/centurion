@@ -1,7 +1,7 @@
 #ifndef CENTURION_KEYCODES_HEADER
 #define CENTURION_KEYCODES_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include "key_code.hpp"
 

@@ -1,7 +1,7 @@
 #ifndef CENTURION_DETAIL_SDL_VERSION_AT_LEAST
 #define CENTURION_DETAIL_SDL_VERSION_AT_LEAST
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include "../core/version.hpp"
 

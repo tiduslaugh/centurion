@@ -1,7 +1,7 @@
 #ifndef CENTURION_DETAIL_SDL_DELETER_HEADER
 #define CENTURION_DETAIL_SDL_DELETER_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 /// \cond FALSE
 namespace cen::detail {

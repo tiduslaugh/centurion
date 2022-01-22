@@ -1,7 +1,7 @@
 #ifndef CENTURION_THREAD_PRIORITY_HEADER
 #define CENTURION_THREAD_PRIORITY_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include <ostream>      // ostream
 #include <string_view>  // string_view

@@ -1,10 +1,10 @@
 #ifndef CENTURION_FILE_HEADER
 #define CENTURION_FILE_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #include <cassert>   // assert

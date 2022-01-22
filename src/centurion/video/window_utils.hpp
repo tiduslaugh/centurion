@@ -1,7 +1,7 @@
 #ifndef CENTURION_WINDOW_UTILS_HEADER
 #define CENTURION_WINDOW_UTILS_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include <utility>  // pair, make_pair, move
 

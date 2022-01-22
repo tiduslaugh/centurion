@@ -1,7 +1,7 @@
 #ifndef CENTURION_TEXTURE_ACCESS_HEADER
 #define CENTURION_TEXTURE_ACCESS_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include <ostream>      // ostream
 #include <string_view>  // string_view

@@ -1,7 +1,7 @@
 #ifndef CENTURION_SEMAPHORE_HEADER
 #define CENTURION_SEMAPHORE_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include <memory>  // unique_ptr
 

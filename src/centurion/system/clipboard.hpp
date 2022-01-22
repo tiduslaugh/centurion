@@ -1,7 +1,7 @@
 #ifndef CENTURION_CLIPBOARD_HEADER
 #define CENTURION_CLIPBOARD_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include <cassert>  // assert
 #include <string>   // string

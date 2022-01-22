@@ -1,7 +1,7 @@
 #ifndef CENTURION_PREFERRED_PATH_HEADER
 #define CENTURION_PREFERRED_PATH_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include <cassert>  // assert
 #include <string>   // string

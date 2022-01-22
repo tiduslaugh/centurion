@@ -1,7 +1,7 @@
 #ifndef CENTURION_HINT_PRIORITY_HEADER
 #define CENTURION_HINT_PRIORITY_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include <ostream>      // ostream
 #include <string_view>  // string_view

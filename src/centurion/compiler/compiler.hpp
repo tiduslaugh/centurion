@@ -1,7 +1,7 @@
 #ifndef CENTURION_COMPILER_HEADER
 #define CENTURION_COMPILER_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 namespace cen {
 

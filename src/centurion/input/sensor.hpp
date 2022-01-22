@@ -1,7 +1,7 @@
 #ifndef CENTURION_SENSOR_HEADER
 #define CENTURION_SENSOR_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include <array>     // array
 #include <optional>  // optional

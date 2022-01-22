@@ -1,6 +1,6 @@
 #include "video/texture.hpp"
 
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #include <gtest/gtest.h>
 
 #include <iostream>  // clog

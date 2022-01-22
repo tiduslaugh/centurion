@@ -1,7 +1,7 @@
 #ifndef CENTURION_OPEN_URL_HEADER
 #define CENTURION_OPEN_URL_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include <cassert>  // assert
 #include <string>   // string

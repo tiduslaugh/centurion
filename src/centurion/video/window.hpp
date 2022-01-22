@@ -1,7 +1,7 @@
 #ifndef CENTURION_WINDOW_HEADER
 #define CENTURION_WINDOW_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include <cassert>   // assert
 #include <optional>  // optional

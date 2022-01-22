@@ -1,7 +1,7 @@
 #ifndef CENTURION_LOCK_STATUS_HEADER
 #define CENTURION_LOCK_STATUS_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include <ostream>      // ostream
 #include <string_view>  // string_view

@@ -1,7 +1,7 @@
 #ifndef CENTURION_DOLLAR_GESTURE_HEADER
 #define CENTURION_DOLLAR_GESTURE_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include "../core/integers.hpp"
 #include "common_event.hpp"

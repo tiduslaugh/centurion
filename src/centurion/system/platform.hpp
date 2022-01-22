@@ -1,7 +1,7 @@
 #ifndef CENTURION_PLATFORM_HEADER
 #define CENTURION_PLATFORM_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include <optional>     // optional
 #include <ostream>      // ostream

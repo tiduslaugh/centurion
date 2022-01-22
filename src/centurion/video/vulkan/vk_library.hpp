@@ -3,8 +3,8 @@
 
 #ifndef CENTURION_NO_VULKAN
 
-#include <SDL.h>
-#include <SDL_vulkan.h>
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_vulkan.h>
 
 #include "../../compiler/features.hpp"
 #include "../../core/exception.hpp"

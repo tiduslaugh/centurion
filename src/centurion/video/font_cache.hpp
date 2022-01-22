@@ -3,7 +3,7 @@
 
 #ifndef CENTURION_NO_SDL_TTF
 
-#include <SDL_ttf.h>
+#include <SDL2/SDL_ttf.h>
 
 #include <cassert>        // assert
 #include <string>         // string

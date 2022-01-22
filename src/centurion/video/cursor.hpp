@@ -1,7 +1,7 @@
 #ifndef CENTURION_CURSOR_HEADER
 #define CENTURION_CURSOR_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include "../detail/owner_handle_api.hpp"
 #include "../math/point.hpp"

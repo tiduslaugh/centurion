@@ -1,7 +1,7 @@
 #ifndef CENTURION_JOY_HAT_POSITION_HEADER
 #define CENTURION_JOY_HAT_POSITION_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include <ostream>      // ostream
 #include <string_view>  // string_view

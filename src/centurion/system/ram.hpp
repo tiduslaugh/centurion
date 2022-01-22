@@ -1,7 +1,7 @@
 #ifndef CENTURION_RAM_HEADER
 #define CENTURION_RAM_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 /**
  * \namespace cen::ram

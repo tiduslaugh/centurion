@@ -1,7 +1,7 @@
 #ifndef CENTURION_BASE_PATH_HEADER
 #define CENTURION_BASE_PATH_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include "../core/sdl_string.hpp"
 

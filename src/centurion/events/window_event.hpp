@@ -1,7 +1,7 @@
 #ifndef CENTURION_WINDOW_EVENT_HEADER
 #define CENTURION_WINDOW_EVENT_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include "common_event.hpp"
 #include "window_event_id.hpp"

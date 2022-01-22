@@ -1,7 +1,7 @@
 #ifndef CENTURION_HAPTIC_PERIODIC_HEADER
 #define CENTURION_HAPTIC_PERIODIC_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include "../core/integers.hpp"
 #include "../core/time.hpp"

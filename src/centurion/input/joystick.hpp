@@ -1,7 +1,7 @@
 #ifndef CENTURION_JOYSTICK_HEADER
 #define CENTURION_JOYSTICK_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include <cassert>   // assert
 #include <optional>  // optional

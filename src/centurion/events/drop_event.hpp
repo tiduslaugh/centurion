@@ -1,7 +1,7 @@
 #ifndef CENTURION_DROP_EVENT_HEADER
 #define CENTURION_DROP_EVENT_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include "../core/integers.hpp"
 #include "common_event.hpp"

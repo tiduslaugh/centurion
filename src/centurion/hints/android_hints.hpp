@@ -1,7 +1,7 @@
 #ifndef CENTURION_ANDROID_HINTS_HEADER
 #define CENTURION_ANDROID_HINTS_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include "../core/str.hpp"
 #include "../detail/hints_impl.hpp"

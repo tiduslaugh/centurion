@@ -1,7 +1,7 @@
 #ifndef CENTURION_JOY_HAT_EVENT_HEADER
 #define CENTURION_JOY_HAT_EVENT_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include "../core/integers.hpp"
 #include "../core/to_underlying.hpp"

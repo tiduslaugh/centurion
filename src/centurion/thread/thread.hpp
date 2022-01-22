@@ -1,7 +1,7 @@
 #ifndef CENTURION_THREAD_HEADER
 #define CENTURION_THREAD_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include <cassert>      // assert
 #include <ostream>      // ostream

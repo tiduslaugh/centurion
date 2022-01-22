@@ -1,7 +1,7 @@
 #ifndef CENTURION_MOUSE_BUTTON_EVENT_HEADER
 #define CENTURION_MOUSE_BUTTON_EVENT_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include "../core/integers.hpp"
 #include "../core/to_underlying.hpp"

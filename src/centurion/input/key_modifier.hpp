@@ -1,7 +1,7 @@
 #ifndef CENTURION_KEY_MODIFIER_HEADER
 #define CENTURION_KEY_MODIFIER_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include <ostream>  // ostream
 #include <sstream>  // stringstream

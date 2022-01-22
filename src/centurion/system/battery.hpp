@@ -1,7 +1,7 @@
 #ifndef CENTURION_BATTERY_HEADER
 #define CENTURION_BATTERY_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include <chrono>    // duration_cast
 #include <optional>  // optional

@@ -1,7 +1,7 @@
 #ifndef CENTURION_CONTROLLER_TOUCHPAD_EVENT_HEADER
 #define CENTURION_CONTROLLER_TOUCHPAD_EVENT_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include "../core/integers.hpp"
 #include "../detail/clamp.hpp"

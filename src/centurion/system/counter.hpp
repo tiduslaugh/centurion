@@ -1,7 +1,7 @@
 #ifndef CENTURION_TIMER_HEADER
 #define CENTURION_TIMER_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include "../core/time.hpp"
 

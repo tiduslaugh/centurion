@@ -1,7 +1,7 @@
 #ifndef CENTURION_RENDERER_INFO_HEADER
 #define CENTURION_RENDERER_INFO_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include <cassert>   // assert
 #include <optional>  // optional

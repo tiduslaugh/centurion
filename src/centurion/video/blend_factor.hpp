@@ -1,7 +1,7 @@
 #ifndef CENTURION_BLEND_FACTOR_HEADER
 #define CENTURION_BLEND_FACTOR_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include <ostream>      // ostream
 #include <string_view>  // string_view

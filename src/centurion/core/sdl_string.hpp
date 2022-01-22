@@ -1,7 +1,7 @@
 #ifndef CENTURION_SDL_STRING_HEADER
 #define CENTURION_SDL_STRING_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include <memory>  // unique_ptr
 #include <string>  // string

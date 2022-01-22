@@ -1,7 +1,7 @@
 #ifndef CENTURION_TEXT_INPUT_EVENT_HEADER
 #define CENTURION_TEXT_INPUT_EVENT_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include <string_view>  // string_view
 

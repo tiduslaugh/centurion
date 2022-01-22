@@ -1,7 +1,7 @@
 #ifndef CENTURION_POINT_HEADER
 #define CENTURION_POINT_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include <cmath>        // sqrt, pow, round
 #include <ostream>      // ostream

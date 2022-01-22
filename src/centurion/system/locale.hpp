@@ -1,7 +1,7 @@
 #ifndef CENTURION_LOCALE_HEADER
 #define CENTURION_LOCALE_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include <cassert>  // assert
 #include <memory>   // unique_ptr

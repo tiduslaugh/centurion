@@ -1,7 +1,7 @@
 #ifndef CENTURION_SDL_LOG_CATEGORY_WORKAROUND_HEADER
 #define CENTURION_SDL_LOG_CATEGORY_WORKAROUND_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include "version.hpp"
 

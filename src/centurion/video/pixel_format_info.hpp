@@ -1,7 +1,7 @@
 #ifndef CENTURION_PIXEL_FORMAT_INFO_HEADER
 #define CENTURION_PIXEL_FORMAT_INFO_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include <ostream>  // ostream
 #include <string>   // string, to_string

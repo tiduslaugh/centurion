@@ -1,7 +1,7 @@
 #ifndef CENTURION_MESSAGE_BOX_HEADER
 #define CENTURION_MESSAGE_BOX_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include <algorithm>    // max, any_of
 #include <cstddef>      // nullptr_t

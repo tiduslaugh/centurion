@@ -1,7 +1,7 @@
 #ifndef CENTURION_INTEGERS_HEADER
 #define CENTURION_INTEGERS_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include <cstddef>  // size_t
 

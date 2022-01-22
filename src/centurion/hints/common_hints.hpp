@@ -1,7 +1,7 @@
 #ifndef CENTURION_COMMON_HINTS_HEADER
 #define CENTURION_COMMON_HINTS_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include <utility>  // make_pair
 

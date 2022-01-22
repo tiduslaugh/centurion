@@ -3,8 +3,8 @@
 
 #ifndef CENTURION_NO_SDL_MIXER
 
-#include <SDL.h>
-#include <SDL_mixer.h>
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_mixer.h>
 
 #include <optional>  // optional
 

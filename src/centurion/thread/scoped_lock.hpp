@@ -1,7 +1,7 @@
 #ifndef CENTURION_SCOPED_LOCK_HEADER
 #define CENTURION_SCOPED_LOCK_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include "../compiler/features.hpp"
 #include "../core/exception.hpp"

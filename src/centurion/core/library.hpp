@@ -47,20 +47,20 @@
 #ifndef CENTURION_LIBRARY_HEADER
 #define CENTURION_LIBRARY_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include "../compiler/features.hpp"
 
 #ifndef CENTURION_NO_SDL_IMAGE
-#include <SDL_image.h>
+#include <SDL2/SDL_image.h>
 #endif  // CENTURION_NO_SDL_IMAGE
 
 #ifndef CENTURION_NO_SDL_MIXER
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 #endif  // CENTURION_NO_SDL_MIXER
 
 #ifndef CENTURION_NO_SDL_TTF
-#include <SDL_ttf.h>
+#include <SDL2/SDL_ttf.h>
 #endif  // CENTURION_NO_SDL_TTF
 
 #include <cassert>   // assert

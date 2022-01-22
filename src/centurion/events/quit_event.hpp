@@ -1,7 +1,7 @@
 #ifndef CENTURION_QUIT_EVENT_HEADER
 #define CENTURION_QUIT_EVENT_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include "common_event.hpp"
 

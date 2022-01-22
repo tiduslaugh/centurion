@@ -1,7 +1,7 @@
 #ifndef CENTURION_RENDERER_HEADER
 #define CENTURION_RENDERER_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include <cassert>        // assert
 #include <cmath>          // floor, sqrt

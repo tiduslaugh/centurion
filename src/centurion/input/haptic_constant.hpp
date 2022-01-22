@@ -1,7 +1,7 @@
 #ifndef CENTURION_HAPTIC_CONSTANT_HEADER
 #define CENTURION_HAPTIC_CONSTANT_HEADER
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include "haptic_effect.hpp"
 
